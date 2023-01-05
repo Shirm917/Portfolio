@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="aboutMeContainer">
       <h1>About Me</h1>
-      <img src="/images/about-me/IMG_6421.png" alt="picture of me" />
+      <img src="/images/about-me/profile-picture.png" alt="picture of me" />
       <p>
         Hi! I'm Shir Markowitz, a recent full-stack web developer graduate experienced in JavaScript-based
         programming with a passion for developing scalable web applications and
