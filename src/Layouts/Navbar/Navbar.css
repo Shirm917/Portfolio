@@ -1,0 +1,18 @@
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link,
+.activeLink {
+  margin-left: 20px;
+}
+
+.s-icon {
+  margin-right: auto;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: #19c0c0;
+}
