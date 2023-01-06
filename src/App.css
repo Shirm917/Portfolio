@@ -1,4 +1,8 @@
 /* Multiple Components */
+body {
+  overflow: hidden;
+}
+
 .link {
   text-decoration: none;
   color: black;
