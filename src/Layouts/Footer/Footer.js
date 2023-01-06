@@ -14,9 +14,9 @@ const Footer = () => {
             justifyContent: "space-around"
         }}
         >
-            <a className="link" href="https://www.linkedin.com/in/shir-markowitz-b58b01256/" target="_blank"><LinkedInIcon fontSize="large"/></a>
-            <a className="link" href="https://github.com/Shirm917" target="_blank"><GitHubIcon fontSize="large"/></a>
-            <a className="link" href="mailto:markowitz.shir@gmail.com"><MailOutlineIcon fontSize="large"/></a>
+            <a className="link" href="https://www.linkedin.com/in/shir-markowitz-b58b01256/" target="_blank" rel="noreferrer"><LinkedInIcon className="icon" fontSize="large"/></a>
+            <a className="link" href="https://github.com/Shirm917" target="_blank" rel="noreferrer"><GitHubIcon className="icon" fontSize="large"/></a>
+            <a className="link" href="mailto:markowitz.shir@gmail.com" rel="noreferrer"><MailOutlineIcon className="icon" fontSize="large"/></a>
         </Box>
         <p>© 2023 Shir Markowitz. All rights reserved.</p>
        </footer> 

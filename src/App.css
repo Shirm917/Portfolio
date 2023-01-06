@@ -17,6 +17,13 @@ footer {
   transform: translateX(-50%);
 }
 
+/* Icons */
+
+.icon:hover {
+  transform: scale(1.5);
+  color: #19c0c0;
+}
+
 /* Contact Me */
 
 .contactTitle {
@@ -30,11 +37,40 @@ footer {
   text-align: center;
 }
 
-/* Buttons */
+/* Buttons and About-Me Button */
 
 .button:hover {
   background-color: #19c0c0 !important;
 }
+
+/* Carousel */
+
+.carousel .control-next.control-arrow, 
+.carousel .control-next.control-arrow:hover,
+.carousel .control-prev.control-arrow,
+.carousel .control-prev.control-arrow:hover {
+  background-color: transparent;
+}
+
+.carousel .control-prev.control-arrow:before {
+  content: '';
+  border: solid #000;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.carousel .control-next.control-arrow:before {
+  content: '';
+  border: solid #000;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+} 
 
 @media only screen and (min-width: 1100px) {
   .carousel {

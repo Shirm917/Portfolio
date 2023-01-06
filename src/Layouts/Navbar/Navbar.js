@@ -21,7 +21,7 @@ const Navbar = () => {
                   color="inherit"
                   aria-label="menu"
                 >
-                  <FontAwesomeIcon icon={faS} />
+                  <FontAwesomeIcon className="icon" icon={faS} />
                 </IconButton>
               </NavLink>
             </div>
