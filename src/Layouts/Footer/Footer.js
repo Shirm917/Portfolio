@@ -7,6 +7,7 @@ const Footer = () => {
     return (
        <footer>
         <Box
+        className="icons"
         sx={{
             display: "flex",
             margin: "0 auto",
