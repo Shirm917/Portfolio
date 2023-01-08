@@ -94,3 +94,14 @@ footer {
   }
 }
 
+@media only screen and (max-height: 630px) {
+  body { 
+    overflow: auto;
+  }
+
+  footer {
+    position: static;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
+}
