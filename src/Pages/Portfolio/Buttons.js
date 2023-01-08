@@ -5,8 +5,8 @@ const Buttons = (props) => {
 
     return (
         <div className="buttons">
-            <a className="link" href={github} target="_blank"><Button className="button" variant="outlined" sx={{borderRadius: 5, margin: 1}}>Github</Button></a>
-            <a className="link" href={demo} target="_blank"><Button className="button" variant="outlined" sx={{borderRadius: 5}}>Demo</Button></a>
+            <a className="link" href={github} target="_blank" rel="noreferrer"><Button className="button" variant="outlined" sx={{borderRadius: 5, margin: 1}}>Github</Button></a>
+            <a className="link" href={demo} target="_blank" rel="noreferrer"><Button className="button" variant="outlined" sx={{borderRadius: 5}}>Demo</Button></a>
         </div>
     )
 }

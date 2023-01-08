@@ -78,6 +78,7 @@ footer {
   .carousel img,
   .carousel video {
     height: 450px;
+    width: 900px;
   }
 }
 
