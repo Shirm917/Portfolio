@@ -1,6 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
 import CircularProgress from "@mui/material/CircularProgress";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 const PortfolioCarousel = (props) => {
   const { images } = props;
