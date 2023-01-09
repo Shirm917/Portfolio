@@ -15,9 +15,9 @@ const PortfolioCarousel = (props) => {
       {!images || images.length === 0 ? (
         <CircularProgress />
       ) : (
-        images.map((element) => {
+        images.map((element,index) => {
           return (
-            <div>
+            <div key={index}>
               {element.type === "jpg" ? (
                 <img src={element.imgPath} alt={element.alt} />
               ) : (

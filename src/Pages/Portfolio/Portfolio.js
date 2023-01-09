@@ -40,13 +40,13 @@ const Portfolio = () => {
         {tabIndex === 1 && (
           <Box>
             <PortfolioCarousel images={weatherAppImgs} />
-            <Buttons github="https://github.com/Shirm917/Weather-App" demo="https://weather-app-y8ku.onrender.com"/>
+            <Buttons github="https://github.com/Shirm917/Weather-App" demo="https://weather-app-kohl-eta.vercel.app"/>
           </Box>
         )}
         {tabIndex === 2 && (
           <Box>
             <PortfolioCarousel images={movieAppImgs} />
-            <Buttons github="https://github.com/Shirm917/Movie-App" demo="https://movie-app-g4yc.onrender.com"/>
+            <Buttons github="https://github.com/Shirm917/Movie-App" demo="https://movie-app-orcin-mu.vercel.app"/>
           </Box>
         )}
         {tabIndex === 3 && (
