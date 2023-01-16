@@ -13,7 +13,7 @@ const AboutMe = () => {
         working across the full stack. I am looking to grow my skill set and
         kick-start my career.
       </p>
-      <Button className="button" variant="outlined" sx={{borderRadius: 5, color: "black"}}>
+      <Button className="button" variant="outlined" sx={{borderRadius: 5, color: "black", marginBottom: 3}}>
         <a href="/resume/ShirMarkowitzResume.pdf" className="link" download>
             Download Resume
         </a>

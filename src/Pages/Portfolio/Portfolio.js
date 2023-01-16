@@ -14,7 +14,6 @@ const Portfolio = () => {
   };
   return (
     <Box className="portfolio">
-      {/* <h1>Portfolio</h1> */}
       <Box sx={{display: "flex", justifyContent: "center", width: "100%"}}>
         <Tabs 
           className="tabs" 

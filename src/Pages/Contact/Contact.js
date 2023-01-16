@@ -34,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className="contact-form">
       <h1 className="contactTitle">Contact Me</h1>
       <Box
         onSubmit={handleSubmit}
@@ -46,6 +46,7 @@ const Contact = () => {
           flexDirection: "column",
           margin: "0 auto",
           width: "50%",
+          alignContent: "center"
         }}
         noValidate
         autoComplete="off"
