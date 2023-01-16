@@ -5,7 +5,7 @@
 
 .link,
 .activeLink {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .s-icon {
@@ -16,3 +16,28 @@
   text-decoration: underline;
   color: #19c0c0;
 }
+
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* .toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link,
+.activeLink {
+  margin-left: 20px;
+}
+
+.s-icon {
+  margin-right: auto;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: #19c0c0;
+} */
+
+

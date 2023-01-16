@@ -22,8 +22,6 @@ const PortfolioCarousel = (props) => {
                 <img src={element.imgPath} alt={element.alt} />
               ) : (
                 <video
-                  width="600"
-                  height="300"
                   autoPlay
                   muted
                   loop
