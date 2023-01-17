@@ -9,58 +9,52 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" color="transparent" elevation={0}>
-          <Toolbar className="toolbar">
-            <div className="s-icon">
-              <NavLink to="/">
-                <IconButton
-                  size="large"
-                  edge="start"
-                  color="inherit"
-                  aria-label="menu"
-                >
-                  <FontAwesomeIcon className="icon" icon={faS} />
-                </IconButton>
+    <header>
+      <nav>
+        <Box sx={{ flexGrow: 1 }}>
+          <AppBar position="static" color="transparent" elevation={0}>
+            <Toolbar className="toolbar">
+              <div className="s-icon">
+                <NavLink to="/">
+                  <IconButton
+                    size="large"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                  >
+                    <FontAwesomeIcon className="icon" icon={faS} />
+                  </IconButton>
+                </NavLink>
+              </div>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "activeLink" : "link")}
+              >
+                About Me
               </NavLink>
-            </div>
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive ? "activeLink" : "link"
-              }
-            >
-              About Me
-            </NavLink>
-            <NavLink
-              to="/skills"
-              className={({ isActive }) =>
-                isActive ? "activeLink" : "link"
-              }
-            >
-              Skills
-            </NavLink>
-            <NavLink
-              to="/portfolio"
-              className={({ isActive }) =>
-                isActive ? "activeLink" : "link"
-              }
-            >
-              Portfolio
-            </NavLink>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? "activeLink" : "link"
-              }
-            >
-              Contact Me
-            </NavLink>
-          </Toolbar>
-        </AppBar>
-      </Box>
-    </nav>
+              <NavLink
+                to="/skills"
+                className={({ isActive }) => (isActive ? "activeLink" : "link")}
+              >
+                Skills
+              </NavLink>
+              <NavLink
+                to="/portfolio"
+                className={({ isActive }) => (isActive ? "activeLink" : "link")}
+              >
+                Portfolio
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) => (isActive ? "activeLink" : "link")}
+              >
+                Contact Me
+              </NavLink>
+            </Toolbar>
+          </AppBar>
+        </Box>
+      </nav>
+    </header>
   );
 };
 

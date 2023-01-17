@@ -57,6 +57,11 @@ footer {
 
 /* Buttons and About-Me Button */
 
+/* .button {
+  border: 1px solid black;
+  border-radius: 40%;
+} */
+
 .button:hover {
   background-color: #19c0c0 !important;
 }
