@@ -2,6 +2,13 @@ body {
   overflow: auto;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
 .link {
   text-decoration: none;
   color: black;
@@ -9,11 +16,12 @@ body {
 
 /* Footer */
 footer {
+  /* position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
   text-align: center;
-  margin-top: auto;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  /* border: 1px solid black; */
 }
 
 /* Icons */

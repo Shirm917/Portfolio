@@ -11,7 +11,7 @@ const Footer = () => {
             display: "flex",
             margin: "0 auto",
             width: "50%",
-            justifyContent: "space-around"
+            justifyContent: "center"
         }}
         >
             <a className="link" href="https://www.linkedin.com/in/shir-markowitz-b58b01256/" target="_blank" rel="noreferrer"><LinkedInIcon className="icon" fontSize="large"/></a>
@@ -19,7 +19,7 @@ const Footer = () => {
             <a className="link" href="mailto:markowitz.shir@gmail.com" rel="noreferrer"><MailOutlineIcon className="icon" fontSize="large"/></a>
         </Box>
         <p>© 2023 Shir Markowitz. All Rights Reserved.</p>
-       </footer> 
+       </footer>
     )
 };
 
