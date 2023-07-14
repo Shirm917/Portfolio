@@ -1,8 +1,8 @@
 export const chatAppImgs = [
     {
-        type: "mp4",
+        type: "jpg",
         label: "Implemented real-time communication using socket.io for chat functionality, including private and temporary group messaging.",
-        imgPath: "/images/chat-app/chat-app-home.mp4",
+        imgPath: "/images/chat-app/home_screen.jpg",
         alt: "Chat App Video"
     },
     {
