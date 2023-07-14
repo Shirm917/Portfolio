@@ -5,13 +5,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <section className="container">
       <Navbar />
       <main>
         <PageRoutes />
       </main>
       <Footer />
-    </div>
+    </section>
   );
 }
 
