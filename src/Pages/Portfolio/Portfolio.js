@@ -15,10 +15,10 @@ const Portfolio = () => {
   return (
     <Box className="portfolio">
       <Box sx={{display: "flex", justifyContent: "center", width: "100%"}}>
-        <Tabs 
-          className="tabs" 
-          value={tabIndex} 
-          onChange={handleTabChange} 
+        <Tabs
+          className="tabs"
+          value={tabIndex}
+          onChange={handleTabChange}
           variant="scrollable"
           scrollButtons="auto"
         >

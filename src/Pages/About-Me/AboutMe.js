@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section className="aboutMeContainer">
       <h1>About Me</h1>
       <img
-        src="/images/about-me/profile-picture.jpg"
+        src="/assets/images/about-me/profile-picture.jpg"
         alt="Profile Picture Of Shir Markowitz"
       />
       <p>
@@ -18,7 +18,7 @@ const AboutMe = () => {
       </p>
       <Button
         className="button"
-        href="/resume/ShirMarkowitzResume.pdf"
+        href="/assets/resume/ShirMarkowitzResume.pdf"
         variant="outlined"
         sx={{ borderRadius: 5, color: "black", marginBottom: 3 }}
         download
