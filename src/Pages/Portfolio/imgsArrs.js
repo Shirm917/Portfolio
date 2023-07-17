@@ -62,7 +62,7 @@ export const memoryGameImgs = [
     {
         type: "mp4",
         label: "Created a reset button using Javascript to allow players to restart the game.",
-        imgPath: "/assets/memory-game/playing.mp4",
+        imgPath: "/assets/images/memory-game/playing.mp4",
         alt: "Memory Game Video"
     },
     {
