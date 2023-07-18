@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import AboutMe from "../Pages/About-Me/AboutMe";
-import Portfolio from "../Pages/Portfolio/Portfolio";
-import Skills from "../Pages/Skills/Skills";
-import Contact from "../Pages/Contact/Contact";
+import AboutMe from "../pages/About-Me/AboutMe";
+import Portfolio from "../pages/Portfolio/Portfolio";
+import Skills from "../pages/Skills/Skills";
+import Contact from "../pages/Contact/Contact";
 
 const PageRoutes = () => {
   return (

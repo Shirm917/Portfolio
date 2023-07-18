@@ -1,6 +1,6 @@
-import Navbar from "./Layouts/Navbar/Navbar";
+import Navbar from "./layouts/Navbar/Navbar";
 import PageRoutes from "./routes/PageRoutes";
-import Footer from "./Layouts/Footer/Footer";
+import Footer from "./layouts/Footer/Footer";
 import "./App.css";
 
 function App() {
