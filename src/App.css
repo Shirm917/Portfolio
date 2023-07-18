@@ -16,12 +16,7 @@ body {
 
 /* Footer */
 footer {
-  /* position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%; */
   text-align: center;
-  /* border: 1px solid black; */
 }
 
 /* Icons */
@@ -64,11 +59,6 @@ footer {
 }
 
 /* Buttons and About-Me Button */
-
-/* .button {
-  border: 1px solid black;
-  border-radius: 40%;
-} */
 
 .button:hover {
   background-color: #19c0c0 !important;
@@ -179,7 +169,7 @@ footer {
   .carousel,
   .carousel img,
   .carousel video {
-    height: 410px;
+    height: 540px;
     width: 1000px;
   }
 
