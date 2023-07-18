@@ -31,7 +31,7 @@ const NavbarLarge = (props) => {
         {pages.map((page) => (
           <NavLink
             key={page.id}
-            className={({ isActive }) => (isActive ? "activeLink" : "link")}
+            className={({ isActive }) => (isActive ? "activeLink largeLink" : "link")}
             to={page.toLink}
             sx={{ my: 2, display: "block" }}
           >

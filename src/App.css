@@ -66,6 +66,12 @@ footer {
 
 /* Carousel */
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .carousel {
   margin: 0 auto;
 }

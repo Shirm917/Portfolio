@@ -59,7 +59,7 @@ const NavbarSmall = (props) => {
           {pages.map((page) => (
             <MenuItem key={page.id} onClick={handleCloseNavMenu}>
               <NavLink
-                className={({ isActive }) => (isActive ? "activeLink" : "link")}
+                className={({ isActive }) => (isActive ? "activeLink smallLink" : "link")}
                 to={page.toLink}
               >
                 {page.name}
