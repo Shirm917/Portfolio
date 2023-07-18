@@ -1,55 +1,26 @@
-import { NavLink } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faS } from "@fortawesome/free-solid-svg-icons";
+import NavbarSmall from "./NavbarSmall";
+import NavbarLarge from "./NavbarLarge";
 import "./Navbar.css";
 
 const Navbar = () => {
+
+  const pages = [
+    {id: 1, name: "About Me", toLink: "/"},
+    {id: 2, name: "Skills", toLink: "/skills"},
+    {id: 3, name: "Portfolio", toLink: "/portfolio"},
+    {id: 4, name: "Contact Me", toLink: "/contact"},
+  ]
   return (
     <header>
       <nav>
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static" color="transparent" elevation={0}>
             <Toolbar className="toolbar">
-              <div className="s-icon">
-                <NavLink to="/">
-                  <IconButton
-                    size="large"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                  >
-                    <FontAwesomeIcon className="icon" icon={faS} />
-                  </IconButton>
-                </NavLink>
-              </div>
-              <NavLink
-                to="/"
-                className={({ isActive }) => (isActive ? "activeLink" : "link")}
-              >
-                About Me
-              </NavLink>
-              <NavLink
-                to="/skills"
-                className={({ isActive }) => (isActive ? "activeLink" : "link")}
-              >
-                Skills
-              </NavLink>
-              <NavLink
-                to="/portfolio"
-                className={({ isActive }) => (isActive ? "activeLink" : "link")}
-              >
-                Portfolio
-              </NavLink>
-              <NavLink
-                to="/contact"
-                className={({ isActive }) => (isActive ? "activeLink" : "link")}
-              >
-                Contact Me
-              </NavLink>
+              <NavbarSmall pages={pages}/>
+              <NavbarLarge pages={pages}/>
             </Toolbar>
           </AppBar>
         </Box>
