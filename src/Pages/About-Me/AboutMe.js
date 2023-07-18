@@ -18,7 +18,7 @@ const AboutMe = () => {
       </p>
       <Button
         className="button"
-        href="/assets/images/resume/ShirMarkowitzResume.pdf"
+        href="/assets/resume/Shir_Markowitz_Resume.pdf"
         variant="outlined"
         sx={{ borderRadius: 5, color: "black", marginBottom: 3 }}
         download
