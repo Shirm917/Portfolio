@@ -13,6 +13,10 @@ const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    const isFormValid = checkFormValidation();
+
+    if (!isFormValid) return;
+    
     emailjs.send(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
@@ -30,7 +34,13 @@ const Contact = () => {
   };
 
   const handleChange = (event) => {
-    setFormData({...formData, [event.target.id]: event.target.value });
+    setFormData({ ...formData, [event.target.id]: event.target.value });
+  };
+
+  const checkFormValidation = () => {
+    if (!formData.user_name || !formData.user_email) return false;
+
+    return true;
   };
 
   return (
@@ -46,7 +56,7 @@ const Contact = () => {
           flexDirection: "column",
           margin: "0 auto",
           width: "50%",
-          alignContent: "center"
+          alignContent: "center",
         }}
         noValidate
         autoComplete="off"
