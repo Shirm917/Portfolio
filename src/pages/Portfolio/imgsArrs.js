@@ -30,7 +30,7 @@ export const weatherAppImgs = [
         type: "mp4",
         label: "Developed a weather app using React for front-end development. Implemented an API to retrieve real-time weather data for multiple cities.",
         imgPath: "/assets/images/weather-app/searchWeather.mp4",
-        alt: "Weather App Video"
+        alt: "Searching for the weather of a city"
     },
     {
         type: "jpg",
@@ -63,7 +63,7 @@ export const memoryGameImgs = [
         type: "mp4",
         label: "Created a reset button using Javascript to allow players to restart the game.",
         imgPath: "/assets/images/memory-game/playing.mp4",
-        alt: "Memory Game Video"
+        alt: "Playing the Memory Game"
     },
     {
         type: "jpg",
@@ -84,13 +84,13 @@ export const movieAppImgs = [
         type: "mp4",
         label: "Implemented an API to retrieve movie data in real time. Created a search page that enabled users to input a search term and display a list of movies with matching titles.",
         imgPath: "/assets/images/movie-app/search.mp4",
-        alt: "Movie App Video"
+        alt: "Searching for a movie, scrolling through the results and seeing the movie details"
     },
     {
         type: "jpg",
         label: "Created a movie detail page that displayed more information about the selected movie.",
         imgPath: "/assets/images/movie-app/details.jpg",
-        alt: "Movie App Movie Info Screen"
+        alt: "Movie App, Movie Info Screen"
     }
 ];
 
@@ -99,7 +99,7 @@ export const currencyConverterImgs = [
         type: "jpg",
         label: "Developed a currency converter using HTML, CSS, and Javascript for front-end development. Implemented an API to retrieve and convert currency exchange rates in real-time.",
         imgPath: "/assets/images/currency-converter/default.jpg",
-        alt: "Currency Converter Screen"
+        alt: "Currency Converter Home Screen"
     },
     {
         type: "jpg",
@@ -111,7 +111,7 @@ export const currencyConverterImgs = [
         type: "mp4",
         label: 'Used Javascript to enable users to switch the “to” and “from” currencies and display the updated amount.',
         imgPath: "/assets/images/currency-converter/switch.mp4",
-        alt: "Currency Converter Video"
+        alt: "Switching the currencies and seeing the updated amount"
     }
 ];
 
