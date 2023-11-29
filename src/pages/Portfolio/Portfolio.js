@@ -1,6 +1,12 @@
 import { useState } from "react";
 import PortfolioCarousel from "./PortfolioCarousel";
-import { chatAppImgs,weatherAppImgs,memoryGameImgs,movieAppImgs,currencyConverterImgs } from "./imgsArrs";
+import {
+  chatAppImgs,
+  weatherAppImgs,
+  memoryGameImgs,
+  movieAppImgs,
+  currencyConverterImgs,
+} from "./data/imgsArrs";
 import Buttons from "./Buttons";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -14,7 +20,7 @@ const Portfolio = () => {
   };
   return (
     <Box className="portfolio">
-      <Box sx={{display: "flex", justifyContent: "center", width: "100%"}}>
+      <Box sx={{ display: "flex", justifyContent: "center", width: "100%" }}>
         <Tabs
           className="tabs"
           value={tabIndex}
@@ -33,31 +39,46 @@ const Portfolio = () => {
         {tabIndex === 0 && (
           <Box>
             <PortfolioCarousel images={chatAppImgs} />
-            <Buttons github="https://github.com/Shirm917/Final_Project" demo="https://final-project-yfoh.onrender.com"/>
+            <Buttons
+              github="https://github.com/Shirm917/Final_Project"
+              demo="https://final-project-yfoh.onrender.com"
+            />
           </Box>
         )}
         {tabIndex === 1 && (
           <Box>
             <PortfolioCarousel images={weatherAppImgs} />
-            <Buttons github="https://github.com/Shirm917/Weather-App" demo="https://weather-app-kohl-eta.vercel.app"/>
+            <Buttons
+              github="https://github.com/Shirm917/Weather-App"
+              demo="https://weather-app-kohl-eta.vercel.app"
+            />
           </Box>
         )}
         {tabIndex === 2 && (
           <Box>
             <PortfolioCarousel images={movieAppImgs} />
-            <Buttons github="https://github.com/Shirm917/Movie-App" demo="https://movie-app-orcin-mu.vercel.app"/>
+            <Buttons
+              github="https://github.com/Shirm917/Movie-App"
+              demo="https://movie-app-orcin-mu.vercel.app"
+            />
           </Box>
         )}
         {tabIndex === 3 && (
           <Box>
             <PortfolioCarousel images={memoryGameImgs} />
-            <Buttons github="https://github.com/Shirm917/Hackathon1" demo="https://memory-game-4x2e.onrender.com"/>
+            <Buttons
+              github="https://github.com/Shirm917/Hackathon1"
+              demo="https://memory-game-4x2e.onrender.com"
+            />
           </Box>
         )}
         {tabIndex === 4 && (
           <Box>
             <PortfolioCarousel images={currencyConverterImgs} />
-            <Buttons github="https://github.com/Shirm917/Currency-Converter" demo="https://currency-converter-62qu.onrender.com"/>
+            <Buttons
+              github="https://github.com/Shirm917/Currency-Converter"
+              demo="https://currency-converter-62qu.onrender.com"
+            />
           </Box>
         )}
       </Box>
