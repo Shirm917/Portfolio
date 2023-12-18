@@ -16,12 +16,12 @@ const Contact = () => {
     const isFormValid = checkFormValidation();
 
     if (!isFormValid) return;
-    
+
     emailjs.send(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
       formData,
-      process.env.REACT_APP_publicKey
+      process.env.REACT_APP_PUBLIC_KEY
     );
 
     setFormData({
