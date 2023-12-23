@@ -1,12 +1,12 @@
 import { useState } from "react";
 import PortfolioCarousel from "./PortfolioCarousel";
 import {
-  chatAppImgs,
-  weatherAppImgs,
-  memoryGameImgs,
-  movieAppImgs,
-  currencyConverterImgs,
-} from "./data/imgsArrs";
+  chatAppMedia,
+  weatherAppMedia,
+  memoryGameMedia,
+  movieAppMedia,
+  currencyConverterMedia,
+} from "./data/carouselData";
 import Buttons from "./Buttons";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -38,7 +38,7 @@ const Portfolio = () => {
       <Box sx={{ padding: 2 }}>
         {tabIndex === 0 && (
           <Box>
-            <PortfolioCarousel images={chatAppImgs} />
+            <PortfolioCarousel images={chatAppMedia} />
             <Buttons
               github="https://github.com/Shirm917/Final_Project"
               demo="https://final-project-yfoh.onrender.com"
@@ -47,7 +47,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 1 && (
           <Box>
-            <PortfolioCarousel images={weatherAppImgs} />
+            <PortfolioCarousel images={weatherAppMedia} />
             <Buttons
               github="https://github.com/Shirm917/Weather-App"
               demo="https://weather-app-kohl-eta.vercel.app"
@@ -56,7 +56,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 2 && (
           <Box>
-            <PortfolioCarousel images={movieAppImgs} />
+            <PortfolioCarousel images={movieAppMedia} />
             <Buttons
               github="https://github.com/Shirm917/Movie-App"
               demo="https://movie-app-orcin-mu.vercel.app"
@@ -65,7 +65,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 3 && (
           <Box>
-            <PortfolioCarousel images={memoryGameImgs} />
+            <PortfolioCarousel images={memoryGameMedia} />
             <Buttons
               github="https://github.com/Shirm917/Hackathon1"
               demo="https://memory-game-4x2e.onrender.com"
@@ -74,7 +74,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 4 && (
           <Box>
-            <PortfolioCarousel images={currencyConverterImgs} />
+            <PortfolioCarousel images={currencyConverterMedia} />
             <Buttons
               github="https://github.com/Shirm917/Currency-Converter"
               demo="https://currency-converter-62qu.onrender.com"

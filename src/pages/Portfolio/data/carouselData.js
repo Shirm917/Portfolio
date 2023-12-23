@@ -1,4 +1,4 @@
-export const chatAppImgs = [
+export const chatAppMedia = [
     {
         type: "jpg",
         label: "Implemented real-time communication using socket.io for chat functionality, including private and temporary group messaging.",
@@ -25,7 +25,7 @@ export const chatAppImgs = [
     }
 ];
 
-export const weatherAppImgs = [
+export const weatherAppMedia = [
     {
         type: "mp4",
         label: "Developed a weather app using React for front-end development. Implemented an API to retrieve real-time weather data for multiple cities.",
@@ -46,7 +46,7 @@ export const weatherAppImgs = [
     }
 ];
 
-export const memoryGameImgs = [
+export const memoryGameMedia = [
     {
         type: "jpg",
         label: "Developed a memory game using HTML, CSS, and Javascript for front-end development.",
@@ -73,7 +73,7 @@ export const memoryGameImgs = [
     }
 ];
 
-export const movieAppImgs = [
+export const movieAppMedia = [
     {
         type: "jpg",
         label: "Developed a movie search app using React, Redux, and redux-thunk for front-end development. Utilized Material-UI to design and style the UI.",
@@ -94,7 +94,7 @@ export const movieAppImgs = [
     }
 ];
 
-export const currencyConverterImgs = [
+export const currencyConverterMedia = [
     {
         type: "jpg",
         label: "Developed a currency converter using HTML, CSS, and Javascript for front-end development. Implemented an API to retrieve and convert currency exchange rates in real-time.",
