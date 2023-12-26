@@ -2,7 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import CircularProgress from "@mui/material/CircularProgress";
 
 const PortfolioCarousel = (props) => {
-  const { images } = props;
+  const { media } = props;
 
   return (
     <Carousel
@@ -12,10 +12,10 @@ const PortfolioCarousel = (props) => {
       infiniteLoop
       showStatus={false}
     >
-      {!images || images.length === 0 ? (
+      {!media || media.length === 0 ? (
         <CircularProgress />
       ) : (
-        images.map((element,index) => {
+        media.map((element,index) => {
           return (
             <div key={index}>
               {element.type === "jpg" ? (

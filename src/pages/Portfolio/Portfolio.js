@@ -38,7 +38,7 @@ const Portfolio = () => {
       <Box sx={{ padding: 2 }}>
         {tabIndex === 0 && (
           <Box>
-            <PortfolioCarousel images={chatAppMedia} />
+            <PortfolioCarousel media={chatAppMedia} />
             <Buttons
               github="https://github.com/Shirm917/Final_Project"
               demo="https://final-project-yfoh.onrender.com"
@@ -47,7 +47,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 1 && (
           <Box>
-            <PortfolioCarousel images={weatherAppMedia} />
+            <PortfolioCarousel media={weatherAppMedia} />
             <Buttons
               github="https://github.com/Shirm917/Weather-App"
               demo="https://weather-app-kohl-eta.vercel.app"
@@ -56,7 +56,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 2 && (
           <Box>
-            <PortfolioCarousel images={recipeFinderMedia} />
+            <PortfolioCarousel media={recipeFinderMedia} />
             <Buttons
               github="https://github.com/Shirm917/Recipe_Finder"
               demo="https://recipe-finder-kappa-two.vercel.app"
@@ -65,7 +65,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 3 && (
           <Box>
-            <PortfolioCarousel images={memoryGameMedia} />
+            <PortfolioCarousel media={memoryGameMedia} />
             <Buttons
               github="https://github.com/Shirm917/Hackathon1"
               demo="https://memory-game-delta-vo.vercel.app"
@@ -74,7 +74,7 @@ const Portfolio = () => {
         )}
         {tabIndex === 4 && (
           <Box>
-            <PortfolioCarousel images={currencyConverterMedia} />
+            <PortfolioCarousel media={currencyConverterMedia} />
             <Buttons
               github="https://github.com/Shirm917/Currency-Converter"
               demo="https://currency-converter-one-blue.vercel.app"
