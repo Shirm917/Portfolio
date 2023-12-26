@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section className="aboutMeContainer">
       <h1>About Me</h1>
       <img
-        src="/assets/images/about-me/profile-picture.jpg"
+        src="/assets/media/about-me/profile-picture.jpg"
         alt="Profile Picture Of Shir Markowitz"
       />
       <p>
