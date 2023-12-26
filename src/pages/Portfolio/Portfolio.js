@@ -4,7 +4,7 @@ import {
   chatAppMedia,
   weatherAppMedia,
   memoryGameMedia,
-  movieAppMedia,
+  recipeFinderMedia,
   currencyConverterMedia,
 } from "./data/carouselData";
 import Buttons from "./Buttons";
@@ -30,7 +30,7 @@ const Portfolio = () => {
         >
           <Tab label="Chat App" />
           <Tab label="Weather App" />
-          <Tab label="Movie App" />
+          <Tab label="Recipe Finder" />
           <Tab label="Memory Game" />
           <Tab label="Currency Converter" />
         </Tabs>
@@ -56,10 +56,10 @@ const Portfolio = () => {
         )}
         {tabIndex === 2 && (
           <Box>
-            <PortfolioCarousel images={movieAppMedia} />
+            <PortfolioCarousel images={recipeFinderMedia} />
             <Buttons
-              github="https://github.com/Shirm917/Movie-App"
-              demo="https://movie-app-orcin-mu.vercel.app"
+              github="https://github.com/Shirm917/Recipe_Finder"
+              demo="https://recipe-finder-kappa-two.vercel.app"
             />
           </Box>
         )}
@@ -68,7 +68,7 @@ const Portfolio = () => {
             <PortfolioCarousel images={memoryGameMedia} />
             <Buttons
               github="https://github.com/Shirm917/Hackathon1"
-              demo="https://memory-game-4x2e.onrender.com"
+              demo="https://memory-game-delta-vo.vercel.app"
             />
           </Box>
         )}
@@ -77,7 +77,7 @@ const Portfolio = () => {
             <PortfolioCarousel images={currencyConverterMedia} />
             <Buttons
               github="https://github.com/Shirm917/Currency-Converter"
-              demo="https://currency-converter-62qu.onrender.com"
+              demo="https://currency-converter-one-blue.vercel.app"
             />
           </Box>
         )}
