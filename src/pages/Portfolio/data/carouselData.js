@@ -46,32 +46,6 @@ export const weatherAppMedia = [
     }
 ];
 
-export const memoryGameMedia = [
-    {
-        type: "jpg",
-        label: "Developed a memory game using HTML, CSS, and Javascript for front-end development.",
-        imgPath: "/assets/media/memory-game/start.jpg",
-        alt: "Memory Game Home Screen"
-    },
-    {
-        type: "jpg",
-        label: "Implemented a timer and points system using Javascript to track and display game progress.",
-        imgPath: "/assets/media/memory-game/board.jpg",
-        alt: "Memory Game, Game Screen"
-    },
-    {
-        type: "mp4",
-        label: "Created a reset button using Javascript to allow players to restart the game.",
-        imgPath: "/assets/media/memory-game/playing.mp4",
-        alt: "Playing the Memory Game"
-    },
-    {
-        type: "jpg",
-        label: "Utilized DOM manipulation techniques to dynamically update the game board and display results.",
-        imgPath: "/assets/media/memory-game/winning.jpg",
-        alt: "Memory Game Results Screen"
-    }
-];
 
 export const recipeFinderMedia = [
     {
@@ -102,8 +76,35 @@ export const recipeFinderMedia = [
         type: "mp4",
         label: "Designed an immersive recipe details screen, allowing users to explore detailed information and seamlessly transition back to the recipe list.",
         imgPath: "/assets/media/recipe-finder/recipe_details.mp4",
-        alt: "Viewing recipe details and returning to recipe list",
+        alt: "Viewing recipe details and using back button to return to recipe list",
     },
+];
+
+export const memoryGameMedia = [
+    {
+        type: "jpg",
+        label: "Developed a memory game using HTML, CSS, and Javascript for front-end development.",
+        imgPath: "/assets/media/memory-game/start.jpg",
+        alt: "Memory Game Home Screen"
+    },
+    {
+        type: "jpg",
+        label: "Implemented a timer and points system using Javascript to track and display game progress.",
+        imgPath: "/assets/media/memory-game/board.jpg",
+        alt: "Memory Game, Game Screen"
+    },
+    {
+        type: "mp4",
+        label: "Created a reset button using Javascript to allow players to restart the game.",
+        imgPath: "/assets/media/memory-game/playing.mp4",
+        alt: "Playing and restarting the Memory Game by hitting the play again button"
+    },
+    {
+        type: "jpg",
+        label: "Utilized DOM manipulation techniques to dynamically update the game board and display results.",
+        imgPath: "/assets/media/memory-game/winning.jpg",
+        alt: "Memory Game Results Screen"
+    }
 ];
 
 export const currencyConverterMedia = [
