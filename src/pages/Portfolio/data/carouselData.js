@@ -50,7 +50,7 @@ export const weatherAppMedia = [
 export const recipeFinderMedia = [
     {
         type: "jpg",
-        label: "Crafted a user-friendly home screen with a dynamic navbar in React, inviting users to explore recipes by name or ingredients.",
+        label: "Created a user-friendly home screen with a dynamic navbar in React, inviting users to explore recipes by name or ingredients.",
         imgPath: "/assets/media/recipe-finder/home_screen.jpg",
         alt: "Recipe Finder Home Screen",
     },
