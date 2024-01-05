@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
-const PortfolioTabs = ({ tabIndex, handleTabChange }) => {
+const CarouselTabs = ({ tabIndex, handleTabChange }) => {
   return (
     <Box sx={{ display: "flex", justifyContent: "center", width: "100%" }}>
       <Tabs
@@ -22,4 +22,4 @@ const PortfolioTabs = ({ tabIndex, handleTabChange }) => {
   );
 };
 
-export default PortfolioTabs;
+export default CarouselTabs;

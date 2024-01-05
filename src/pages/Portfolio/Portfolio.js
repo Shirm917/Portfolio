@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Box from "@mui/material/Box";
-import PortfolioTabs from "./PortfolioTabs";
+import CarouselTabs from "./CarouselTabs";
 import PortfolioCarousel from "./PortfolioCarousel";
 import {
   chatAppMedia,
@@ -19,7 +19,7 @@ const Portfolio = () => {
   };
   return (
     <Box className="portfolio">
-      <PortfolioTabs tabIndex={tabIndex} handleTabChange={handleTabChange} />
+      <CarouselTabs tabIndex={tabIndex} handleTabChange={handleTabChange} />
       <Box sx={{ padding: 2 }}>
         {tabIndex === 0 && (
           <Box>
