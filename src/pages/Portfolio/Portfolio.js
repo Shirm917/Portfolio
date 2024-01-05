@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Box from "@mui/material/Box";
+import PortfolioTabs from "./PortfolioTabs";
 import PortfolioCarousel from "./PortfolioCarousel";
 import {
   chatAppMedia,
@@ -8,9 +10,6 @@ import {
   currencyConverterMedia,
 } from "./data/carouselData";
 import Buttons from "./Buttons";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Box from "@mui/material/Box";
 
 const Portfolio = () => {
   const [tabIndex, setTabIndex] = useState(0);
@@ -20,21 +19,7 @@ const Portfolio = () => {
   };
   return (
     <Box className="portfolio">
-      <Box sx={{ display: "flex", justifyContent: "center", width: "100%" }}>
-        <Tabs
-          className="tabs"
-          value={tabIndex}
-          onChange={handleTabChange}
-          variant="scrollable"
-          scrollButtons="auto"
-        >
-          <Tab label="Chat App" />
-          <Tab label="Weather App" />
-          <Tab label="Recipe Finder" />
-          <Tab label="Memory Game" />
-          <Tab label="Currency Converter" />
-        </Tabs>
-      </Box>
+      <PortfolioTabs tabIndex={tabIndex} handleTabChange={handleTabChange} />
       <Box sx={{ padding: 2 }}>
         {tabIndex === 0 && (
           <Box>
