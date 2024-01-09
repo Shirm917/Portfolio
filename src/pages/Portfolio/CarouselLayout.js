@@ -1,13 +1,14 @@
 import Box from "@mui/material/Box";
 import PortfolioCarousel from "./PortfolioCarousel";
-import Buttons from "./Buttons";
+import CarouselButton from "./CarouselButton";
 
 const CarouselLayout = ({ element }) => {
   const { media, github, demo } = element;
   return (
-    <Box>
+    <Box sx={{textAlign: "center"}}>
       <PortfolioCarousel media={media} />
-      <Buttons github={github} demo={demo} />
+      <CarouselButton link={github} title="Github" />
+      <CarouselButton link={demo} title="Demo"/>
     </Box>
   );
 };
