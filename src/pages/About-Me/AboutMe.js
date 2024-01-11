@@ -1,6 +1,5 @@
 import Button from "@mui/material/Button";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
-import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
