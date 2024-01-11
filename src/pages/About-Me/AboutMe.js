@@ -1,5 +1,4 @@
-import Button from "@mui/material/Button";
-import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
+import DownloadResumeBtn from "./DownloadResumeBtn";
 
 const AboutMe = () => {
   return (
@@ -15,16 +14,7 @@ const AboutMe = () => {
         developing scalable web applications and working across the full stack.
         I am looking to grow my skill set and kick-start my career.
       </p>
-      <Button
-        className="button"
-        href="/assets/resume/Shir_Markowitz_Resume.pdf"
-        variant="outlined"
-        sx={{ borderRadius: 5, color: "black", marginBottom: 3 }}
-        download
-      >
-        Download Resume
-        <FileDownloadOutlinedIcon />
-      </Button>
+      <DownloadResumeBtn />
     </section>
   );
 };
