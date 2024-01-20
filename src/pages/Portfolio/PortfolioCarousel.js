@@ -19,9 +19,9 @@ const PortfolioCarousel = (props) => {
           return (
             <div key={index}>
               {element.type === "jpg" ? (
-                <img src={element.imgPath} alt={element.alt} />
+                <img src={element.mediaPath} alt={element.alt} />
               ) : (
-                <video autoPlay muted loop playsInline src={element.imgPath}>
+                <video autoPlay muted loop playsInline src={element.mediaPath}>
                   {element.alt}
                 </video>
               )}
