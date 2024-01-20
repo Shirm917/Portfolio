@@ -6,21 +6,20 @@ import NavbarLarge from "./NavbarLarge";
 import "./Navbar.css";
 
 const Navbar = () => {
-
   const pages = [
-    {id: 1, name: "About Me", toLink: "/"},
-    {id: 2, name: "Skills", toLink: "/skills"},
-    {id: 3, name: "Portfolio", toLink: "/portfolio"},
-    {id: 4, name: "Contact Me", toLink: "/contact"},
-  ]
+    { id: 1, name: "About Me", toLink: "/" },
+    { id: 2, name: "Skills", toLink: "/skills" },
+    { id: 3, name: "Portfolio", toLink: "/portfolio" },
+    { id: 4, name: "Contact Me", toLink: "/contact" },
+  ];
   return (
     <header>
       <nav>
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static" color="transparent" elevation={0}>
             <Toolbar className="toolbar">
-              <NavbarSmall pages={pages}/>
-              <NavbarLarge pages={pages}/>
+              <NavbarSmall pages={pages} />
+              <NavbarLarge pages={pages} />
             </Toolbar>
           </AppBar>
         </Box>

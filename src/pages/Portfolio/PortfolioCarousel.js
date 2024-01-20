@@ -15,19 +15,15 @@ const PortfolioCarousel = (props) => {
       {!media || media.length === 0 ? (
         <CircularProgress />
       ) : (
-        media.map((element,index) => {
+        media.map((element, index) => {
           return (
             <div key={index}>
               {element.type === "jpg" ? (
                 <img src={element.imgPath} alt={element.alt} />
               ) : (
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  src={element.imgPath}
-                >{element.alt}</video>
+                <video autoPlay muted loop playsInline src={element.imgPath}>
+                  {element.alt}
+                </video>
               )}
               <p className="legend">{element.label}</p>
             </div>

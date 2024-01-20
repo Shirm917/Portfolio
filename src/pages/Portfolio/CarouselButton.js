@@ -8,7 +8,7 @@ const CarouselButton = ({ link, title }) => {
       href={link}
       target="_blank"
       rel="noreferrer"
-      sx={{ borderRadius: 5, margin: .5 }}
+      sx={{ borderRadius: 5, margin: 0.5 }}
     >
       {title}
     </Button>
