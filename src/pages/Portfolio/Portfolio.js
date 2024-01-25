@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import CarouselTabs from "./CarouselTabs";
 import { carouselLayoutData } from "./data/carouselLayoutData";
 import CarouselLayout from "./CarouselLayout";
+import "./Portfolio.css";
 
 const Portfolio = () => {
   const [tabIndex, setTabIndex] = useState(0);

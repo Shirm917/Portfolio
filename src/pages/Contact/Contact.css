@@ -1,0 +1,27 @@
+.contact-form {
+  margin-bottom: 15%;
+}
+
+@media only screen and (min-width: 600px) {
+  .contact-form {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-form {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .contact-form {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-form {
+    margin-bottom: 10%;
+  }
+}

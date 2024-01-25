@@ -1,0 +1,38 @@
+.icons {
+  display: grid;
+  gap: 70px 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+.icons img {
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (min-width: 425px) {
+  .icons {
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .icons {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .icons {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .icons {
+    margin-top: 8%;
+  }
+}

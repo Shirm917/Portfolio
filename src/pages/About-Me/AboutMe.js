@@ -1,4 +1,5 @@
 import DownloadResumeBtn from "./DownloadResumeBtn";
+import "./AboutMe.css";
 
 const AboutMe = () => {
   return (

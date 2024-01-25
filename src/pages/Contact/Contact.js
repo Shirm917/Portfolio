@@ -3,6 +3,7 @@ import TextField from "@mui/material/TextField";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import emailjs from "@emailjs/browser";
+import "./Contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
