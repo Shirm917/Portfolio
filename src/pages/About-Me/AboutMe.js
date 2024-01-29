@@ -10,10 +10,11 @@ const AboutMe = () => {
         alt="Profile Picture Of Shir Markowitz"
       />
       <p>
-        Hi! I'm Shir Markowitz, a recent full-stack web developer graduate
-        experienced in JavaScript-based programming with a passion for
-        developing scalable web applications and working across the full stack.
-        I am looking to grow my skill set and kick-start my career.
+        Hi! I'm Shir Markowitz, a full stack developer graduate experienced in
+        JavaScript-based programming with a passion for developing scalable web
+        applications and working across the full stack. Eager to learn, grow,
+        and thrive in a collaborative workplace where I can contribute
+        effectively to the team's success.
       </p>
       <DownloadResumeBtn />
     </section>
